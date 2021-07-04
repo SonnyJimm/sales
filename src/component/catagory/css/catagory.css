@@ -1,0 +1,7 @@
+.catagorys {
+  display: -ms-grid;
+  display: grid;
+  gap: 4rem;
+  -ms-grid-columns: (minmax(5rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+}

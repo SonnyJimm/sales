@@ -1,0 +1,22 @@
+$color-secondary: #242526;
+.card {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  background-color: $color-secondary;
+  border-radius: 1rem;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.title {
+  padding: 1rem;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+}
+.card:hover {
+  opacity: 1;
+}
